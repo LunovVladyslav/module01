@@ -7,7 +7,7 @@ public class FooSem {
     Semaphore semaphore2= new Semaphore(0);
     public void first() {
         System.out.print("First");
-        semaphore1.release(1);
+        semaphore1.release();
     }
     public void second() {
         try {
